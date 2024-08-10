@@ -1,0 +1,5 @@
+The original files are released under MIT by badmotorfinger.
+
+Reference: https://github.com/badmotorfinger/nemo-peazip-context-menu/
+
+These modified files are licensed under GPLv3.
