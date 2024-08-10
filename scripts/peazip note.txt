@@ -1,0 +1,5 @@
+The files in this folder are based on scripts from peazip (https://github.com/peazip/PeaZip/blob/sources/peazip-sources/res/share/batch/freedesktop_integration/Nautilus-scripts/Archiving/PeaZip/). The files were modified and are licensed under GPLv3.
+
+PeaZip is released under LGPLv3 by Giorgio Tani.
+
+Reference: https://github.com/peazip/PeaZip/
