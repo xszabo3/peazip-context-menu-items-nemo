@@ -1,0 +1,55 @@
+#!/bin/bash
+
+# Nemo Convert script for Flatpak version of PeaZip
+# Copyright (C) 2024  Krisztián Szabó
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+# Please check the "peazip note.txt" in this folder
+# (or see https://github.com/xszabo3/peazip-context-menu-items-nemo)
+# for license and copyright information of the file which this file is based on.
+#
+# AUTHOR: Krisztián Szabó, basing on Giorgio Tani and Gias Kay Lee modification of Chris Giles' script
+# VERSION: 0.1
+
+# This function decodes the percent encoding on the uri.
+# Characters like éáú in the path are handled as expected as a result.
+function decode() {
+    echo -e "${*//%/\\x}";
+}
+
+APPLICATION="PeaZip"
+TITLE="Error"
+MESSAGE="The $APPLICATION flatpak application is not installed."
+basediruri="`echo $NEMO_SCRIPT_CURRENT_URI | cut -d'/' -f3-`"
+basedir=$(decode "$basediruri")
+appid=io.github.peazip.PeaZip
+
+if flatpak info "${appid}" >/dev/null 2>&1
+then
+	flatpak run "${appid}" -add2convert "$basedir/$1"
+else
+	# Show an error message
+	if which nautilus-error-dialog; then
+		nautilus-error-dialog --title "$TITLE" --message "$MESSAGE"
+	elif which gdialog; then
+		gdialog --title "$TITLE" --msgbox "$MESSAGE" 20 100
+	elif which kdialog; then
+		kdialog --title "$TITLE" --msgbox "$MESSAGE"
+	elif which gxmessage; then
+		gxmessage -buttons OK -title "$TITLE" "$MESSAGE"
+	elif which xmessage; then
+		xmessage -buttons OK -title "$TITLE" "$MESSAGE"
+	fi
+fi
