@@ -30,7 +30,7 @@ The scripts do not support different languages. Rename them if you prefer them i
 ### Install instructions
 
 1. Place the scritps into the nemo scripts folder:
-    1. Download the actions
+    1. Download the [scripts](https://github.com/xszabo3/peazip-context-menu-items-nemo/tree/main/scripts) found in the scripts folder
 
     2. Copy the scripts
     3. Navigate to ~/.local/share/nemo/scripts
