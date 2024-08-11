@@ -20,9 +20,15 @@
 #(or see https://github.com/xszabo3/peazip-context-menu-items-nemo)
 #for license and copyright information of the file which this file is based on.
 
+# Version 1.1
+
 Active=true
 Name=Extract here
 Name[hu]=Kibontás ide
+Name[es]=Extraer aquí
+Name[cz]=Rozbalit sem
+Name[fr]=Extraire ici
+Name[de]=Hier entpacken
 Comment=Extract archives here with PeaZip
 Exec=flatpak run io.github.peazip.PeaZip -ext2here %F
 Icon-Name=peazip_extract

@@ -20,9 +20,15 @@
 #(or see https://github.com/xszabo3/peazip-context-menu-items-nemo)
 #for license and copyright information of the file which this file is based on.
 
+# Version 1.1
+
 Active=true
 Name=Add to archive
 Name[hu]=Hozzáadás az archívumhoz
+Name[es]=Añadir al archivo
+Name[cz]=Přidat do archivu
+Name[fr]=Ajouter à l'archive
+Name[de]=Zu Archiv hinzufügen
 Comment=Add files and folders to archive with PeaZip
 Icon-Name=peazip_add
 Exec=flatpak run io.github.peazip.PeaZip -add2archive %F

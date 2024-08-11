@@ -2,6 +2,10 @@
 
 - English
 - Hungarian
+- Czech
+- Spanish
+- German
+- French
 
 ## New languages
 
