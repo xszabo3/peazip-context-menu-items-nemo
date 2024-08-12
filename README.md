@@ -45,11 +45,6 @@ Actions support other languages, check the [Supported Languages](Supported_Langu
 
         ![Icon folder location](pictures/Icons.png)
 
-        - Optionally you can copy the icons to /usr/share/icons instead to install them for every user on the PC
-
-> [!CAUTION]
-> Moving files to /usr/share/icons requires root privileges. You can cause harm in your system with root privileges.
-
     4. Press Enter
 
     5. Paste the icons into the folder
@@ -67,6 +62,11 @@ Actions support other languages, check the [Supported Languages](Supported_Langu
     5. Paste the actions into the folder
 
 3. Done
+
+Optionally you can copy the icons to /usr/share/icons instead to install them for every user on the PC
+
+> [!CAUTION]
+> Moving files to /usr/share/icons requires root privileges. You can cause harm in your system with root privileges.
 
 ### How to group actions
 
