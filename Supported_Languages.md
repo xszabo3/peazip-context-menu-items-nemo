@@ -3,9 +3,13 @@
 - English
 - Hungarian
 - Czech
+- Slovak
 - Spanish
 - German
 - French
+- Russian
+- Ukrainian
+- Polish
 
 ## New languages
 
