@@ -9,6 +9,7 @@
 - French
 - Russian
 - Ukrainian
+- Polish
 
 ## New languages
 

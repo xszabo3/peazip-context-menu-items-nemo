@@ -32,6 +32,7 @@ Name[fr]=Extraire ici
 Name[de]=Hier entpacken
 Name[ru]=Извлечь сюда
 Name[uk]=Витягти сюди
+Name[pl]=Wypakuj tutaj
 Comment=Extract archives here with PeaZip
 Exec=flatpak run io.github.peazip.PeaZip -ext2here %F
 Icon-Name=peazip_extract
