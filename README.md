@@ -2,11 +2,12 @@
 
 ## What are these files for
 
-They add PeaZip right-click context menu items to Nemo file manager (Nemo is the official file manager of the Cinnamon DE).
-
-These files were tested on Linux Mint Cinnamon Edition.
+They add PeaZip right-click context menu items to Nemo file manager (Nemo is the official file manager of the Cinnamon DE). This makes zipping and unzipping zip (and other) files more convenient.
 
 ![context menu](pictures/Context-menu.png)
+
+> [!NOTE]
+> These files were tested only on Linux Mint Cinnamon Edition. If you have the Nemo file manager, the files should work in other distributions too.
 
 # How to use the files
 
