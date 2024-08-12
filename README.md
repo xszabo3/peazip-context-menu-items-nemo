@@ -18,7 +18,7 @@ Using only actions is recommended. Download scripts only if you need them.
 
 On the first picture you can see both types. Scripts can be found under the Scripts submenu and the actions are directly in the context menu.
 
-> [!NOTE] 
+> [!NOTE]
 > If you have Linux Mint 22 you can group actions under a submenu like this.
 
 ![context menu](pictures/Action-group.png)
@@ -41,9 +41,14 @@ Actions support other languages, check the [Supported Languages](Supported_Langu
     1. Download the [icons](https://github.com/xszabo3/peazip-context-menu-items-nemo/tree/main/icons) found in the icons folder
 
     2. Copy the icons
-    3. Navigate to ~/.local/share/icons
+    3. Navigate to ~/.local/share/icons (recommended)
 
         ![Icon folder location](pictures/Icons.png)
+
+        - Optionally you can copy the icons to /usr/share/icons instead to install them for every user on the PC
+
+        > [!CAUTION]
+        > Moving files to /usr/share/icons requires root privileges. You can cause harm in your system with root privileges.
 
     4. Press Enter
 
