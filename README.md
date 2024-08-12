@@ -68,18 +68,18 @@ This feature is available from Linux Mint **22**.
 
 1. Open the **Actions** window.
 
-    ![Action folder location](pictures/Actions-search.png)
+    ![Action search in menu](pictures/Actions-search.png)
 
 2. Switch to the Layout tab
 
-    ![Action folder location](pictures/Actions-window.png)
+    ![Action window instructions](pictures/Actions-window.png)
 
 3. Click the **+** symbol and select the new submenu option
 4. Choose a group name (in this case PeaZip)
 5. Click *Save*
 6. Now drag the actions on the new submenu with the mouse. The result will look like this:
 
-    ![Action folder location](pictures/Actions-grouped.png)
+    ![Grouped actions](pictures/Actions-grouped.png)
 
 7. Click *Save*
 
