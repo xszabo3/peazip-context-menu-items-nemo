@@ -47,8 +47,8 @@ Actions support other languages, check the [Supported Languages](Supported_Langu
 
         - Optionally you can copy the icons to /usr/share/icons instead to install them for every user on the PC
 
-        > [!CAUTION]
-        > Moving files to /usr/share/icons requires root privileges. You can cause harm in your system with root privileges.
+> [!CAUTION]
+> Moving files to /usr/share/icons requires root privileges. You can cause harm in your system with root privileges.
 
     4. Press Enter
 
