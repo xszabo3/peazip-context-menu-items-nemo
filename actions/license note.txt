@@ -1,5 +1,5 @@
-The original files are released under MIT by badmotorfinger.
+The original 3 files (add_to_archive.nemo_action, extract_here.nemo_action, extract_to.nemo_action) are released under MIT by badmotorfinger.
 
 Reference: https://github.com/badmotorfinger/nemo-peazip-context-menu/
 
-These modified files are licensed under GPLv3.
+The files in this folder are modified and licensed under GPLv3.
