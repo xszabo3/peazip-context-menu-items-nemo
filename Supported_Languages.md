@@ -3,6 +3,7 @@
 - English
 - Hungarian
 - Czech
+- Slovak
 - Spanish
 - German
 - French
