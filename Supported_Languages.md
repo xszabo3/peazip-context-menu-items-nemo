@@ -7,6 +7,8 @@
 - Spanish
 - German
 - French
+- Russian
+- Ukrainian
 
 ## New languages
 
