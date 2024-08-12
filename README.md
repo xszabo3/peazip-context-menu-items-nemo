@@ -17,8 +17,8 @@ Using only actions is recommended. Download scripts only if you need them.
 
 On the first picture you can see both types. Scripts can be found under the Scripts submenu and the actions are directly in the context menu.
 
-[!NOTE] 
-If you have Linux Mint 22 you can group actions under a submenu like this.
+> [!NOTE] 
+> If you have Linux Mint 22 you can group actions under a submenu like this.
 
 ![context menu](pictures/Action-group.png)
 
@@ -28,8 +28,8 @@ Install the Flatpak version of PeaZip from the Software Manager.
 
 ![peazip Flatpak](pictures/Flatpak.png)
 
-[!IMPORTANT]
-These files require the Flatpak version, they will not work if you installed the .deb package from the PeaZip website.
+> [!IMPORTANT]
+> These files require the Flatpak version, they will not work if you installed the .deb package from the PeaZip website.
 
 ## Actions
 
