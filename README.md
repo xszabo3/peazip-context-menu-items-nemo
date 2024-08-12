@@ -10,10 +10,16 @@ These files were tested on Linux Mint Cinnamon Edition.
 
 # How to use the files
 
-First decide which files do you need.
-You can find one folder with scripts and one with actions.
+First decide which files do you need. You can find one folder with scripts and one with actions in this repository.
 
-On the first picture you can see both types. Scripts can be found under Scripts, the actions are directly in the context menu.
+Using only actions is recommended. Download scripts only if you need them.
+
+
+On the first picture you can see both types. Scripts can be found under the Scripts submenu and the actions are directly in the context menu.
+
+**NOTE** If you have Linux Mint 22 you can group actions under a submenu like this.
+
+![context menu](pictures/Action-group.png)
 
 ## Prerequisites
 
