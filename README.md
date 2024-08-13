@@ -1,5 +1,7 @@
 # PeaZip context menu items for Nemo file manager
 
+Work in progress - I will try to upload the actions to Cinnamon Spices and continue development there.
+
 ## What are these files for
 
 They add PeaZip right-click context menu items to Nemo file manager (Nemo is the official file manager of the Cinnamon DE). This makes zipping and unzipping zip (and other) files more convenient.
